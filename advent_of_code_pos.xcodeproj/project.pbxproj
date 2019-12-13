@@ -13,6 +13,9 @@
 		A960E5D123A2938500F4F7BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A960E5D023A2938500F4F7BD /* Assets.xcassets */; };
 		A960E5D423A2938500F4F7BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A960E5D323A2938500F4F7BD /* Preview Assets.xcassets */; };
 		A960E5D723A2938500F4F7BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A960E5D523A2938500F4F7BD /* LaunchScreen.storyboard */; };
+		A960E5E323A2A30D00F4F7BD /* input_01.txt in Resources */ = {isa = PBXBuildFile; fileRef = A960E5E223A2A30D00F4F7BD /* input_01.txt */; };
+		A960E5E523A2A41D00F4F7BD /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A960E5E423A2A41D00F4F7BD /* Reader.swift */; };
+		A960E5E823A2A67C00F4F7BD /* DayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A960E5E723A2A67C00F4F7BD /* DayOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A960E5D323A2938500F4F7BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A960E5D623A2938500F4F7BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A960E5D823A2938500F4F7BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A960E5E223A2A30D00F4F7BD /* input_01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input_01.txt; path = ../../../../../../Desktop/input_01.txt; sourceTree = "<group>"; };
+		A960E5E423A2A41D00F4F7BD /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reader.swift; path = "/Users/tobiasfurtlehner/Documents/Schule/5. Klasse/POS Grüneis/advent_of_code_pos/advent_of_code_pos/Reader.swift"; sourceTree = "<absolute>"; };
+		A960E5E723A2A67C00F4F7BD /* DayOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		A960E5C923A2938400F4F7BD /* advent_of_code_pos */ = {
 			isa = PBXGroup;
 			children = (
+				A960E5E623A2A64900F4F7BD /* Advent */,
+				A960E5E423A2A41D00F4F7BD /* Reader.swift */,
+				A960E5E223A2A30D00F4F7BD /* input_01.txt */,
 				A960E5CA23A2938400F4F7BD /* AppDelegate.swift */,
 				A960E5CC23A2938400F4F7BD /* SceneDelegate.swift */,
 				A960E5CE23A2938400F4F7BD /* ContentView.swift */,
@@ -73,6 +82,14 @@
 				A960E5D323A2938500F4F7BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A960E5E623A2A64900F4F7BD /* Advent */ = {
+			isa = PBXGroup;
+			children = (
+				A960E5E723A2A67C00F4F7BD /* DayOne.swift */,
+			);
+			path = Advent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +152,7 @@
 			files = (
 				A960E5D723A2938500F4F7BD /* LaunchScreen.storyboard in Resources */,
 				A960E5D423A2938500F4F7BD /* Preview Assets.xcassets in Resources */,
+				A960E5E323A2A30D00F4F7BD /* input_01.txt in Resources */,
 				A960E5D123A2938500F4F7BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +166,8 @@
 			files = (
 				A960E5CB23A2938400F4F7BD /* AppDelegate.swift in Sources */,
 				A960E5CD23A2938400F4F7BD /* SceneDelegate.swift in Sources */,
+				A960E5E823A2A67C00F4F7BD /* DayOne.swift in Sources */,
+				A960E5E523A2A41D00F4F7BD /* Reader.swift in Sources */,
 				A960E5CF23A2938400F4F7BD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
