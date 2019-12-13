@@ -30,6 +30,7 @@
 		A960E5E223A2A30D00F4F7BD /* input_01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input_01.txt; path = ../../../../../../Desktop/input_01.txt; sourceTree = "<group>"; };
 		A960E5E423A2A41D00F4F7BD /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reader.swift; path = "/Users/tobiasfurtlehner/Documents/Schule/5. Klasse/POS Grüneis/advent_of_code_pos/advent_of_code_pos/Reader.swift"; sourceTree = "<absolute>"; };
 		A960E5E723A2A67C00F4F7BD /* DayOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayOne.swift; sourceTree = "<group>"; };
+		A960E5EA23A3896100F4F7BD /* input_01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_01.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				A960E5E623A2A64900F4F7BD /* Advent */,
+				A960E5EA23A3896100F4F7BD /* input_01.txt */,
 				A960E5E423A2A41D00F4F7BD /* Reader.swift */,
 				A960E5E223A2A30D00F4F7BD /* input_01.txt */,
 				A960E5CA23A2938400F4F7BD /* AppDelegate.swift */,

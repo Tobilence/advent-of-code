@@ -48,7 +48,8 @@ struct ContentView: View {
         .background(
             Image("background")
                 .resizable()
-                .scaledToFill())
+                .scaledToFill()
+        )
         .edgesIgnoringSafeArea(.all)
         
         
