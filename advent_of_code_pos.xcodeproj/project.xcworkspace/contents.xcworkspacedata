@@ -2,15 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../advent_of_code_pos/Advent/DayOne.swift">
+      location = "group:../../AOC_Angaben/input_01.txt">
    </FileRef>
    <FileRef
-      location = "group:/Users/tobiasfurtlehner/Documents/Schule/5. Klasse/POS Gru&#x308;neis/advent_of_code_pos/advent_of_code_pos/Reader.swift">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Desktop/input_01.txt">
-   </FileRef>
-   <FileRef
-      location = "self:advent_of_code_pos.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -14,26 +14,37 @@ struct ContentView: View {
     @State var resultPartTwo:Int = 0
     
     let dayOne = DayOne()
+    let dayTwo = DayTwo()
     
     
     var body: some View {
         ZStack {
             VStack (alignment: HorizontalAlignment.center, spacing: 20) {
-                HStack (spacing: 10){
-                    Button(action: {
-                            DispatchQueue.main.async {
-                                self.resultPartOne = self.dayOne.partOne()
-                                self.resultPartTwo = self.dayOne.partTwo()
-                            }
-                        }) {
-                        Text("Day 1")
-                            .foregroundColor(Color.black)
-                            .frame(width: 125, height: 40, alignment: .center)
-                            .background(Color.blue)
-                    }
-                    
-                    .cornerRadius(10)
+                Button(action: {
+                        DispatchQueue.main.async {
+                            self.resultPartOne = self.dayOne.partOne()
+                            self.resultPartTwo = self.dayOne.partTwo()
+                        }
+                    }) {
+                    Text("Day 1")
+                        .foregroundColor(Color.black)
+                        .frame(width: 125, height: 40, alignment: .center)
+                        .background(Color.blue)
                 }
+                .cornerRadius(10)
+                .padding(.bottom, 20)
+                Button(action: {
+                        DispatchQueue.main.async {
+                            self.resultPartOne = self.dayTwo.partOne()
+                            self.resultPartTwo = self.dayTwo.partTwo()
+                        }
+                    }) {
+                    Text("Day 2")
+                        .foregroundColor(Color.black)
+                        .frame(width: 125, height: 40, alignment: .center)
+                        .background(Color.blue)
+                }
+                .cornerRadius(10)
                 Spacer()
                 VStack (spacing: 5){
                     Text("Part 1: \(resultPartOne)")
@@ -41,8 +52,8 @@ struct ContentView: View {
                     Text("Part 2: \(resultPartTwo)")
                         .bold()
                 }
-                .padding(.bottom, 20)
             }
+            .padding(.bottom, 20)
             .padding(.top, 50)
         }
         .background(

@@ -16,8 +16,13 @@ class InputReader {
             return input.map { Int($0)!}
         }
         catch {
+            //throw InputReaderError.errorReadingFile(errorCode: error)
             print(error)
         }
-        return [0]
+        return [-1]
     }
+}
+
+enum InputReaderError:Error {
+    case errorReadingFile(errorCode:Error)
 }

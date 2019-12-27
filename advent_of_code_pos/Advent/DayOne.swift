@@ -30,11 +30,9 @@ class DayOne {
             var temp = Int((Double(inputNumber/3).rounded(.down))-2)
             fuel += temp;
             while(temp > 0) {
-                do {
-                    temp = Int((Double(temp/3).rounded(.down))-2)
-                    if(temp > 0){
-                        fuel += temp
-                    }
+                temp = Int((Double(temp/3).rounded(.down))-2)
+                if(temp > 0){
+                    fuel += temp
                 }
             }
         }
