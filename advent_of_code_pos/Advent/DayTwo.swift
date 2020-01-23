@@ -9,7 +9,6 @@
 import Foundation
 
 class DayTwo {
-    
     let reader = InputReader()
     
     func partOne() -> Int {
